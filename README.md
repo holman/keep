@@ -13,8 +13,7 @@ It makes keeping config information pretty easy.
     keep.set(:password,'Ellen Page')
     keep.get(:password)
 
-Just tell Keep where to keep things, then give it a hash of what to keep and
-what the value is.
+Just tell Keep where to keep things, then tell it a key and what the value is.
 
 Keep currently serializes to YAML (although different backends are likely to
 come next- pull requests welcome).
