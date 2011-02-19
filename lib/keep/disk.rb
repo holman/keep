@@ -62,6 +62,13 @@ class Keep
       data[key.to_s]
     end
 
+    # Accesses all of the keys we're keeping.
+    #
+    # Returns an Array of Objects.
+    def keys
+      data.keys
+    end
+
     # Searches for the key in the in-memory Hash.
     #
     # Returns whether or not the key is present.

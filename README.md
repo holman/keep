@@ -21,7 +21,9 @@ come next- pull requests welcome).
 ## More
 
     keep = Keep.new('config/settings.yml')
-    keep.present?(:password)
+    keep.present?(:password) # => 'Ellen Page'
+
+    keep.keys # => ['Ellen Page']
 
 ## Other important information
 

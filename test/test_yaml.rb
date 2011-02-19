@@ -32,4 +32,10 @@ class TestKeep < Test::Unit::TestCase
     assert @yaml.present?('cute')
   end
 
+  def test_keys
+    @yaml.set('cute', 'ellen page')
+    @yaml.set('hot',  'elisha cuthbert')
+    assert_equal %w(hot cute), @yaml.keys
+  end
+
 end

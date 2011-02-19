@@ -77,4 +77,11 @@ class Keep
     @disk.present?(key)
   end
 
+  # Accesses all of the keys we're keeping.
+  #
+  # Returns an Array of Objects.
+  def keys
+    @disk.keys
+  end
+
 end
