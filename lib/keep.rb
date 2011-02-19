@@ -7,7 +7,7 @@ require 'keep/disk'
 require 'keep/yaml'
 
 class Keep
-  VERSION = '0.0.2'
+  VERSION = '0.0.3'
 
   # The path to the configuration file.
   attr_reader :path
