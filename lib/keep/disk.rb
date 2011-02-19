@@ -47,10 +47,11 @@ class Keep
     #   key - a String value for the key of this Hash
     #   value - an Object that maps to the key, will be serialized
     #
-    # Returns whether the save was successful.
+    # Returns the value..
     def set(key,value)
       data[key.to_s] = value
       save
+      value
     end
 
     # Returns the value of the specified key.
