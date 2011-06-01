@@ -83,5 +83,4 @@ class Keep
   def keys
     @disk.keys
   end
-
 end
